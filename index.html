@@ -2,141 +2,923 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- SEO -->
-    <meta name="description" content="Advanced CSS3 Responsive Portfolio Website">
-    <meta name="keywords" content="HTML5, CSS3, Portfolio, Responsive">
-    <meta name="author" content="Harsshanna">
+    <meta
+        name="description"
+        content="Harsshanna - B.Tech ADS Student and Aspiring Software Developer"
+    >
 
-    <title>Responsive Portfolio</title>
+    <meta
+        name="keywords"
+        content="Harsshanna, Portfolio, Python, Java, C++, Web Development, Data Analytics"
+    >
+
+    <meta
+        name="author"
+        content="Harsshanna"
+    >
+
+    <title>Harsshanna | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-    <!-- Header -->
+
+    <!-- ================= NAVBAR ================= -->
 
     <header class="header">
 
         <div class="logo">
-            MyPortfolio
+
+            Harsshanna<span>.</span>
+
         </div>
 
-        <nav class="navbar" aria-label="Main Navigation">
+
+        <nav class="navbar">
 
             <a href="#home">Home</a>
+
             <a href="#about">About</a>
+
+            <a href="#skills">Skills</a>
+
             <a href="#projects">Projects</a>
+
             <a href="#contact">Contact</a>
 
         </nav>
 
-        <button class="theme-btn" onclick="toggleTheme()">
-            Toggle Theme
-        </button>
+
+        <a
+            href="#contact"
+            class="nav-button">
+
+            Let's Talk
+
+        </a>
 
     </header>
 
-    <!-- Hero Section -->
 
-    <section class="hero" id="home">
 
-        <h1>Advanced Responsive Portfolio</h1>
+    <!-- ================= HERO ================= -->
 
-        <p>
-            Built using HTML5, CSS3, Grid, Flexbox and Responsive Design
-        </p>
+    <section
+        class="hero"
+        id="home">
 
-    </section>
 
-    <!-- About -->
+        <div class="hero-content">
 
-    <section class="about" id="about">
 
-        <h2>About Me</h2>
+            <p class="intro">
 
-        <p>
-            Passionate frontend developer learning modern web technologies.
-        </p>
+                👋 Hello, I'm
 
-    </section>
+            </p>
 
-    <!-- Projects -->
 
-    <section class="projects" id="projects">
+            <h1>
 
-        <h2>Projects</h2>
+                Harsshanna
 
-        <div class="project-grid">
+                <br>
 
-            <article class="card">
-                <h3>Calculator</h3>
-                <p>Menu driven calculator in C++</p>
-            </article>
+                <span>Aspiring Software Developer</span>
 
-            <article class="card">
-                <h3>Tic Tac Toe</h3>
-                <p>Console based game using C++</p>
-            </article>
+            </h1>
 
-            <article class="card">
-                <h3>Hotel Management</h3>
-                <p>Simple hotel management system</p>
-            </article>
 
-            <article class="card">
-                <h3>Contact Management</h3>
-                <p>File handling based contact manager</p>
-            </article>
+            <p class="hero-description">
+
+                B.Tech student specializing in Artificial Intelligence
+                and Data Science. I enjoy building web applications,
+                solving problems and exploring modern technologies.
+
+            </p>
+
+
+            <div class="hero-buttons">
+
+                <a
+                    href="#projects"
+                    class="primary-button">
+
+                    View My Projects →
+
+                </a>
+
+
+                <a
+                    href="#contact"
+                    class="secondary-button">
+
+                    Contact Me
+
+                </a>
+
+            </div>
+
+
+            <div class="social-links">
+
+                <a href="#" title="GitHub">
+                    GitHub
+                </a>
+
+                <a href="#" title="LinkedIn">
+                    LinkedIn
+                </a>
+
+                <a href="#" title="Email">
+                    Email
+                </a>
+
+            </div>
+
 
         </div>
 
+
+
+        <!-- PROFILE CARD -->
+
+        <div class="hero-card">
+
+
+            <div class="profile-circle">
+
+                HS
+
+            </div>
+
+
+            <h2>
+                B.Tech - ADS
+            </h2>
+
+
+            <p>
+                AI & Data Science
+            </p>
+
+
+            <div class="status">
+
+                <span></span>
+
+                Available for opportunities
+
+            </div>
+
+
+        </div>
+
+
     </section>
 
-    <!-- Contact -->
 
-    <section class="contact" id="contact">
 
-        <h2>Contact</h2>
+    <!-- ================= STATS ================= -->
 
-        <form class="contact-form">
+    <section class="stats">
 
-            <input type="text" placeholder="Enter Name" required>
 
-            <input type="email" placeholder="Enter Email" required>
+        <div class="stat">
 
-            <textarea placeholder="Enter Message"></textarea>
+            <h2>10+</h2>
 
-            <button type="submit">
-                Send Message
-            </button>
+            <p>
+                Projects
+            </p>
 
-        </form>
+        </div>
+
+
+        <div class="stat">
+
+            <h2>8+</h2>
+
+            <p>
+                Technologies
+            </p>
+
+        </div>
+
+
+        <div class="stat">
+
+            <h2>5+</h2>
+
+            <p>
+                Internships
+            </p>
+
+        </div>
+
+
+        <div class="stat">
+
+            <h2>3rd</h2>
+
+            <p>
+                Year Student
+            </p>
+
+        </div>
+
 
     </section>
 
-    <!-- Footer -->
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section
+        class="section"
+        id="about">
+
+
+        <div class="section-title">
+
+            <p>
+                ABOUT ME
+            </p>
+
+            <h2>
+                Turning ideas into<br>
+                <span>real applications.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="about-container">
+
+
+            <div class="about-text">
+
+                <p>
+
+                    I am a B.Tech student specializing in
+                    Artificial Intelligence and Data Science,
+                    passionate about software development,
+                    data analytics and emerging technologies.
+
+                </p>
+
+
+                <p>
+
+                    I enjoy creating practical projects that
+                    combine clean design with useful functionality.
+                    My goal is to continuously improve my technical
+                    skills and build solutions that solve real-world
+                    problems.
+
+                </p>
+
+
+                <a
+                    href="#contact"
+                    class="primary-button">
+
+                    Get In Touch →
+
+                </a>
+
+            </div>
+
+
+            <div class="about-box">
+
+
+                <div class="about-item">
+
+                    <span>🎓</span>
+
+                    <div>
+
+                        <h3>
+                            Education
+                        </h3>
+
+                        <p>
+                            B.Tech - Artificial Intelligence
+                            & Data Science
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-item">
+
+                    <span>💻</span>
+
+                    <div>
+
+                        <h3>
+                            Development
+                        </h3>
+
+                        <p>
+                            Web Development & Software Projects
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <div class="about-item">
+
+                    <span>🤖</span>
+
+                    <div>
+
+                        <h3>
+                            Interests
+                        </h3>
+
+                        <p>
+                            AI, Data Analytics & Machine Learning
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section
+        class="section skills-section"
+        id="skills">
+
+
+        <div class="section-title">
+
+            <p>
+                MY SKILLS
+            </p>
+
+            <h2>
+                Technologies I<br>
+                <span>work with.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="skills-grid">
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    💻
+                </div>
+
+                <h3>
+                    Programming
+                </h3>
+
+                <p>
+                    C, C++, Python, Java
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    🌐
+                </div>
+
+                <h3>
+                    Web Development
+                </h3>
+
+                <p>
+                    HTML, CSS, JavaScript
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    📊
+                </div>
+
+                <h3>
+                    Data Analytics
+                </h3>
+
+                <p>
+                    Python, SQL & Data Visualization
+                </p>
+
+            </div>
+
+
+            <div class="skill-card">
+
+                <div class="skill-icon">
+                    🗄️
+                </div>
+
+                <h3>
+                    Database
+                </h3>
+
+                <p>
+                    SQL & PostgreSQL
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- SKILL BARS -->
+
+        <div class="skill-bars">
+
+
+            <div class="bar">
+
+                <div>
+
+                    <span>
+                        Python
+                    </span>
+
+                    <span>
+                        85%
+                    </span>
+
+                </div>
+
+                <div class="bar-bg">
+
+                    <div
+                        class="bar-fill python">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="bar">
+
+                <div>
+
+                    <span>
+                        C++
+                    </span>
+
+                    <span>
+                        80%
+                    </span>
+
+                </div>
+
+                <div class="bar-bg">
+
+                    <div
+                        class="bar-fill cpp">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="bar">
+
+                <div>
+
+                    <span>
+                        Web Development
+                    </span>
+
+                    <span>
+                        75%
+                    </span>
+
+                </div>
+
+                <div class="bar-bg">
+
+                    <div
+                        class="bar-fill web">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <div class="bar">
+
+                <div>
+
+                    <span>
+                        SQL
+                    </span>
+
+                    <span>
+                        70%
+                    </span>
+
+                </div>
+
+                <div class="bar-bg">
+
+                    <div
+                        class="bar-fill sql">
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section
+        class="section"
+        id="projects">
+
+
+        <div class="section-title">
+
+            <p>
+                MY WORK
+            </p>
+
+            <h2>
+                Featured<br>
+                <span>Projects.</span>
+            </h2>
+
+        </div>
+
+
+        <div class="project-grid">
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    01
+                </div>
+
+                <div class="project-icon">
+                    🤖
+                </div>
+
+                <h3>
+                    AI Skill Gap Analyzer
+                </h3>
+
+                <p>
+
+                    AI-powered application that analyzes
+                    resumes, identifies skill gaps and
+                    generates personalized learning roadmaps.
+
+                </p>
+
+                <div class="tags">
+
+                    <span>React</span>
+
+                    <span>FastAPI</span>
+
+                    <span>AI</span>
+
+                    <span>PostgreSQL</span>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    02
+                </div>
+
+                <div class="project-icon">
+                    💊
+                </div>
+
+                <h3>
+                    Smart Medicine Reminder
+                </h3>
+
+                <p>
+
+                    A smart medicine reminder application
+                    designed to help users manage medicine
+                    schedules and interactions.
+
+                </p>
+
+                <div class="tags">
+
+                    <span>Python</span>
+
+                    <span>JavaScript</span>
+
+                    <span>Database</span>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    03
+                </div>
+
+                <div class="project-icon">
+                    🎤
+                </div>
+
+                <h3>
+                    AI Interview Simulator
+                </h3>
+
+                <p>
+
+                    Interactive AI-based platform that
+                    simulates interview questions and
+                    provides practice for technical interviews.
+
+                </p>
+
+                <div class="tags">
+
+                    <span>AI</span>
+
+                    <span>Python</span>
+
+                    <span>Web</span>
+
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    04
+                </div>
+
+                <div class="project-icon">
+                    🌊
+                </div>
+
+                <h3>
+                    Marine Debris Detection
+                </h3>
+
+                <p>
+
+                    AI-powered system for detecting marine
+                    debris and anomalies from side-scan
+                    sonar imagery.
+
+                </p>
+
+                <div class="tags">
+
+                    <span>YOLO</span>
+
+                    <span>U-Net</span>
+
+                    <span>Computer Vision</span>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section
+        class="contact-section"
+        id="contact">
+
+
+        <div class="contact-container">
+
+
+            <div class="contact-info">
+
+
+                <p class="section-label">
+                    CONTACT
+                </p>
+
+
+                <h2>
+
+                    Let's build<br>
+
+                    something <span>great.</span>
+
+                </h2>
+
+
+                <p>
+
+                    Have a project idea, internship opportunity
+                    or simply want to connect? Feel free to
+                    reach out.
+
+                </p>
+
+
+                <div class="contact-details">
+
+
+                    <div>
+
+                        <span>📧</span>
+
+                        <p>
+                            Email
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>💼</span>
+
+                        <p>
+                            LinkedIn
+                        </p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>🐙</span>
+
+                        <p>
+                            GitHub
+                        </p>
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+
+            <form
+                class="contact-form"
+                onsubmit="sendMessage(event)">
+
+
+                <input
+                    type="text"
+                    placeholder="Your Name"
+                    required
+                >
+
+
+                <input
+                    type="email"
+                    placeholder="Your Email"
+                    required
+                >
+
+
+                <textarea
+                    placeholder="Tell me about your project..."
+                    rows="6"
+                    required>
+                </textarea>
+
+
+                <button
+                    type="submit"
+                    class="primary-button">
+
+                    Send Message →
+
+                </button>
+
+
+            </form>
+
+
+        </div>
+
+
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
 
     <footer>
 
+
+        <div class="footer-logo">
+
+            Harsshanna<span>.</span>
+
+        </div>
+
+
         <p>
-            © 2026 Harsshanna Portfolio
+
+            Designed & Built with HTML5 & CSS3
+
         </p>
+
+
+        <p>
+
+            © 2026 Harsshanna. All Rights Reserved.
+
+        </p>
+
 
     </footer>
 
+
+
+    <!-- ================= JAVASCRIPT ================= -->
+
     <script>
 
-        function toggleTheme() {
+        function sendMessage(event) {
 
-            document.body.classList.toggle("dark-mode");
+            event.preventDefault();
+
+            alert("Thank you! Your message has been received.");
 
         }
 
     </script>
+
 
 </body>
 
